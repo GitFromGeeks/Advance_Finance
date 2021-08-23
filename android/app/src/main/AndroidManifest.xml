@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.advancefinanceplus">
    <application
-        android:label="advancefinanceplus"
+        android:label="Advance Finance+"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

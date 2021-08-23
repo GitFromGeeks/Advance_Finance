@@ -65,7 +65,7 @@ class _Customer_detailsState extends State<Customer_details> {
                 children: [
                   Image(
                       width: MediaQuery.of(context).size.width * 0.3,
-                      height: MediaQuery.of(context).size.width * 0.4,
+                      height: MediaQuery.of(context).size.width * 0.3,
                       image: AssetImage("profile.jpg")),
                   Expanded(
                     child: Column(
@@ -73,6 +73,7 @@ class _Customer_detailsState extends State<Customer_details> {
                         SingleChildScrollView(
                           scrollDirection: Axis.horizontal,
                           child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 "Name : ",
@@ -83,7 +84,7 @@ class _Customer_detailsState extends State<Customer_details> {
                                 style: GoogleFonts.abel(),
                               ),
                               SizedBox(
-                                width: 120.0,
+                                width: 200.0,
                               )
                             ],
                           ),
@@ -137,7 +138,7 @@ class _Customer_detailsState extends State<Customer_details> {
                                 style: GoogleFonts.abel(),
                               ),
                               SizedBox(
-                                width: 40.0,
+                                width: 200.0,
                               )
                             ],
                           ),
@@ -356,6 +357,9 @@ class _Customer_detailsState extends State<Customer_details> {
                     Text(
                       "Islam Nagar near akhbaar factory karula moradabad",
                       style: GoogleFonts.abel(),
+                    ),
+                    SizedBox(
+                      width: 150,
                     )
                   ],
                 ),
@@ -366,21 +370,25 @@ class _Customer_detailsState extends State<Customer_details> {
                   children: [
                     SizedBox(
                       width: MediaQuery.of(context).size.width * 0.1,
+                      height: MediaQuery.of(context).size.width * 0.1,
                     ),
                     Image(
-                        width: MediaQuery.of(context).size.width * 0.6,
+                        width: MediaQuery.of(context).size.width * 0.9,
+                        height: MediaQuery.of(context).size.width * 0.9,
                         image: AssetImage("adhar_front.jpg")),
                     SizedBox(
                       width: MediaQuery.of(context).size.width * 0.1,
                     ),
                     Image(
-                        width: MediaQuery.of(context).size.width * 0.6,
+                        width: MediaQuery.of(context).size.width * 0.9,
+                        height: MediaQuery.of(context).size.width * 0.9,
                         image: AssetImage("adhar_back.jpg")),
                     SizedBox(
                       width: MediaQuery.of(context).size.width * 0.1,
                     ),
                     Image(
-                        width: MediaQuery.of(context).size.width * 0.6,
+                        width: MediaQuery.of(context).size.width * 0.9,
+                        height: MediaQuery.of(context).size.width * 0.9,
                         image: AssetImage("pan.jpg")),
                   ],
                 ),

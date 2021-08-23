@@ -45,19 +45,23 @@ class _Add_customerState extends State<Add_customer> {
                         labelText: "Name"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.phone), labelText: "Mobile Number"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                         icon: Icon(Icons.email), labelText: "email"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.streetAddress,
                     decoration: InputDecoration(
                         icon: Icon(Icons.local_activity_sharp),
                         labelText: "Address"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.confirmation_number),
                         labelText: "Addhar No."),
@@ -75,6 +79,7 @@ class _Add_customerState extends State<Add_customer> {
                         icon: Icon(Icons.phone_android), labelText: "Model"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.price_change), labelText: "Price"),
                   ),
@@ -84,15 +89,18 @@ class _Add_customerState extends State<Add_customer> {
                         labelText: "Branch Code"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.input_rounded), labelText: "IMEI"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.input_rounded),
                         labelText: "File Charge"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.timelapse), labelText: "Duration"),
                   ),
@@ -101,6 +109,7 @@ class _Add_customerState extends State<Add_customer> {
                         icon: Icon(Icons.description), labelText: "Ref. Name"),
                   ),
                   TextFormField(
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         icon: Icon(Icons.description), labelText: "Ref. No."),
                   ),
